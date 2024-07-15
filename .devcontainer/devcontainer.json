@@ -40,5 +40,8 @@
                 "github.vscode-github-actions",
             ],
         }
-    }
+    },
+    "remoteEnv": {
+        "KRAKEN_KEY": "${{secrets.KRAKEN_KEY}}"
+    }    
 }
