@@ -42,6 +42,7 @@
         }
     },
     "remoteEnv": {
-        "KRAKEN_KEY": "${{secrets.KRAKEN_KEY}}"
-    }    
+        "KRAKEN_KEY": "${{secrets.KRAKEN_KEY}}",
+        "KRAKEN_PRIVATE": "${{secrets.KRAKEN_PRIVATE}}"
+    }
 }
